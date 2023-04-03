@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #0000000d;
+}
+ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+ul li{
+    padding: 3px;
+}
+.card-section .card{
+    background: #0000001a;
+}
+.card-section .image-box{
+    width: 100%;
+    height: 100%;
+}
+.card-section .image-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.crud-content > ul > li{
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.crud-content > ul > li > a{
+    padding: 10px;
+}
+.contact-content{
+    background-color: #ececec;
+}
+.contact-content > li{
+    border-bottom: 1px solid #0000001a;
+    padding: 6px 13px;
+}
+.add-form-section{
+    padding: 21px 10px;
+}
+.add-form-section input{
+    width: 75%;
+    border: none;
+    margin-bottom: 12px;
+    outline: none;
+    background-color:  #0000000d;
+}
+.add-form-section img{
+    height: 298px;
+}
+.add-form-section input::placeholder{
+    font-size: .8rem;
+}

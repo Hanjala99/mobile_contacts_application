@@ -1,0 +1,15 @@
+@media (max-width: 576px){
+    .card-section .image-box {
+        height: 216px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .card-section .image-box img {
+        width: 45%;
+    }
+    .crud-content{
+        margin-top: 1rem;
+    }
+}
